@@ -6,13 +6,14 @@ NC='\033[0m'
 local_ip=$(hostname -I | awk '{print $1}')
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
-echo -e "${GREEN}=========== AAA   LL      IIIII     JJJ   AAA   YY   YY   AAA ==============${NC}"   
-echo -e "${GREEN}========== AAAAA  LL       III      JJJ  AAAAA  YY   YY  AAAAA =============${NC}" 
-echo -e "${GREEN}========= AA   AA LL       III      JJJ AA   AA  YYYYY  AA   AA ============${NC}"
-echo -e "${GREEN}========= AAAAAAA LL       III  JJ  JJJ AAAAAAA   YYY   AAAAAAA ============${NC}"
-echo -e "${GREEN}========= AA   AA LLLLLLL IIIII  JJJJJ  AA   AA   YYY   AA   AA ============${NC}"
+echo -e "${GREEN}========================EEEEEEE    KK  KK      AAA==========================${NC}"   
+echo -e "${GREEN}========================EE         KK KK      AAAAA=========================${NC}"  
+echo -e "${GREEN}========================EEEEE      KKKK      AA   AA========================${NC}" 
+echo -e "${GREEN}========================EE         KK KK     AAAAAAA========================${NC}" 
+echo -e "${GREEN}========================EEEEEEE    KK  KK    AA   AA========================${NC}" 
+echo -e "${GREEN}========================EEEEEEE    KK  KK    AA   AA========================${NC}" 
 echo -e "${GREEN}============================================================================${NC}"
-echo -e "${GREEN}========================= . Info 081-947-215-703 ===========================${NC}"
+echo -e "${GREEN}========================= . Info 0812-8567-6444 ============================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}============================== WARNING!!! ==================================${NC}"
 echo -e "${GREEN}CONFIG DEMO VERSION${NC}"
@@ -208,7 +209,7 @@ fi
 #Sukses
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}========== GenieACS UI akses port 3000. : http://$local_ip:3000 ============${NC}"
-echo -e "${GREEN}=================== Informasi: Whatsapp 081947215703 =======================${NC}"
+echo -e "${GREEN}=================== Informasi: Whatsapp 081285676444 =======================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
 cp -r app-LU66VFYW.css /usr/lib/node_modules/genieacs/public/
 cp -r logo-3976e73d.svg /usr/lib/node_modules/genieacs/public/
@@ -234,6 +235,6 @@ echo -e "${GREEN}===============================================================
 echo -e "${GREEN}=================== VIRTUAL PARAMETER BERHASIL DI INSTALL. =================${NC}"
 echo -e "${GREEN}===Jika ACS URL berbeda, silahkan edit di Admin >> Provosions >> inform ====${NC}"
 echo -e "${GREEN}========== GenieACS UI akses port 3000. : http://$local_ip:3000 ============${NC}"
-echo -e "${GREEN}=================== Informasi: Whatsapp 081947215703 =======================${NC}"
+echo -e "${GREEN}=================== Informasi: Whatsapp 081285676444 =======================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
 sudo rm -r genieacs
