@@ -228,8 +228,6 @@ for ((i = 5; i >= 1; i--)); do
     echo "Lanjut Install Parameter $i. Tekan ctrl+c untuk membatalkan"
 done
 
-cd
-sudo mongorestore --db=genieacs --drop genieacs
 #Sukses
 echo -e "${GREEN}============================================================================${NC}"
 echo -e "${GREEN}=================== VIRTUAL PARAMETER BERHASIL DI INSTALL. =================${NC}"
