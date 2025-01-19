@@ -237,4 +237,3 @@ echo -e "${GREEN}===Jika ACS URL berbeda, silahkan edit di Admin >> Provosions >
 echo -e "${GREEN}========== GenieACS UI akses port 3000. : http://$local_ip:3000 ============${NC}"
 echo -e "${GREEN}=================== Informasi: Whatsapp 081285676444 =======================${NC}"
 echo -e "${GREEN}============================================================================${NC}"
-sudo rm -r genieacs
